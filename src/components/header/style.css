@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  /* 헤더는 맨 윗줄임 div 요소가 2개
+  그걸 flex로 가로로 정렬해주고,
+  justify-content는 두 요소를 각각 양 옆으로 밀어줌 가운데가 비워지도록
+  align-items는 높이의 가운데에 위치하도록
+  padding은 상하는 0, 좌우는 20px씩 안으로 들어오게 함
+   */

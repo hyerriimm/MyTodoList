@@ -1,0 +1,63 @@
+.add-form {
+    background-color: #eee;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+  }
+  /* 여긴 인풋그룹과 추가하기 버튼을 묶어줌 
+  배경색 회색
+  모서리가 동그란 회색 사각형
+  바깥 마진 상하 0, 좌우 auto
+  인풋그룹과 추가하기버튼 가로병렬로
+  아이템들 높이의 가운데로 정렬
+  인풋그룹 왼쪽끝에 추가하기버튼 오른쪽 끝에 두어 가운데 공간 비워줌
+  안쪽 패딩 30px
+  제목, 인풋박스, 내용, 인풋박스, 추가하기 버튼 사이의 갭을 20씩 줌
+  */
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  /* 여기엔 제목 인풋박스 내용 인풋박스가 묶임 
+  사실상 위에랑 겹쳐서 빼도 될 듯..?*/
+  
+  .form-label {
+    font-size: 16px;
+  font-weight: 700;
+  }
+  /* 제목과 내용의 폰트사이즈랑 글씨 굵기 */
+  
+  .add-input{ 
+    height: 40px;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    padding: 0 12px;
+  }
+  /* 제목과 내용 인풋박스 높이 40, 넓이 240
+  테두리 선 없앰
+  모서리 둥글게 처리
+  패딩 좌우로 줘서 커서 깜빡이는게 좀 더 안쪽에서 보이도록 만듦
+  */
+  
+  .add-button {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: teal;
+    width: 140px;
+    color: #fff;
+    font-weight: 700;
+  }
+  /* 추가하기 버튼
+  테두리 선 없애고 높이 40으로 인풋박스와 같이 맞춰줌
+  모서리 둥글게 깎고 버튼 배경색 넣어줌
+  넓이 140으로 주고
+  글씨 색 흰색으로 바꿔주고 글씨굵기 제목, 내용이랑 똑같이 700으로 줌
+  */
